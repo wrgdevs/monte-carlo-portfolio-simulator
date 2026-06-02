@@ -1,0 +1,76 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Package/build files
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local results / generated reports
+results/
+outputs/
+reports/
+*.html
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+*.pickle
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Matplotlib / temp files
+*.tmp
+*.bak
+
+# Keep screenshots
+!assets/
+!assets/*.png
+!assets/*.jpg
+!assets/*.jpeg
+!assets/*.webp
